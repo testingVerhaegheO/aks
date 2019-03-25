@@ -1,0 +1,39 @@
+{
+    "$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+    "contentVersion": "1.0.0.0",
+    "parameters": {
+        "resourceName": {
+            "value": "testingVerhaegheO03"
+        },
+        "dnsPrefix": {
+            "value": "testingVerhaegheO03-dns"
+        },
+        "agentCount": {
+            "value": 3
+        },
+        "agentVMSize": {
+            "value": "Standard_B2s"
+        },
+        "servicePrincipalClientId": {
+            "value": "d9b98ee1-3c88-46f4-8051-aadbc07c0d86"
+        },
+        "servicePrincipalClientSecret": {
+            "value": "110301c8-9a1d-4bbc-9a8c-f3c689732fae"
+        },
+        "kubernetesVersion": {
+            "value": "1.12.6"
+        },
+        "networkPlugin": {
+            "value": "kubenet"
+        },
+        "enableRBAC": {
+            "value": true
+        },
+        "enableHttpApplicationRouting": {
+            "value": false
+        },
+        "omsWorkspaceId": {
+            "value": "/subscriptions/a6e10cb0-79e5-4b68-af13-d17fc5f7505a/resourceGroups/testingVerhaegheO03/providers/Microsoft.OperationalInsights/workspaces/testingVerhaeghe03"
+        }
+    }
+}
