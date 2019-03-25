@@ -101,7 +101,7 @@
         },
         "enableOmsAgent": {
             "type": "bool",
-            "defaultValue": true,
+            "defaultValue": false,
             "metadata": {
                 "description": "Boolean flag to turn on and off of omsagent addon."
             }
